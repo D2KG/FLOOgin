@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>helpDialog</class>
+ <widget class="QDialog" name="helpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help FLOOgin</string>
+  </property>
+  <widget class="QTabWidget" name="tbwRoad">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>665</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="getting_started_tab">
+    <attribute name="title">
+     <string>Getting Started</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QTextEdit" name="getting_started_text">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cantarell'; font-weight:600; color:#0000ff;&quot;&gt;First things first&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cantarell';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cantarell';&quot;&gt;These are the first few steps you need to follow in order to use Alternative Route Finder:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cantarell';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Step 1&lt;/span&gt; : Load the &lt;span style=&quot; color:#0000ff;&quot;&gt;flood-hazard layer&lt;/span&gt; and &lt;span style=&quot; color:#0000ff;&quot;&gt;road-network layer&lt;/span&gt; &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Step 2&lt;/span&gt; : Check whether a file with &lt;span style=&quot; color:#ff0000;&quot;&gt;.keywords&lt;/span&gt; extension, is available in each layer bundle &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Step 3&lt;/span&gt; : If (.keywords files) available, press on &lt;span style=&quot; color:#0000ff;&quot;&gt;Generate map for process&lt;/span&gt; button to generate a &lt;span style=&quot; color:#0000ff;&quot;&gt;flood-safe&lt;/span&gt; layer&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Step 4&lt;/span&gt; : If (.keywords files) &lt;span style=&quot; color:#ff0000;&quot;&gt;not&lt;/span&gt; available, select the &lt;span style=&quot; color:#0000ff;&quot;&gt;flood-hazard layer&lt;/span&gt; and &lt;span style=&quot; color:#0000ff;&quot;&gt;road-network layer&lt;/span&gt; from the drop downs and provide a name for the output shapefile&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Step 5&lt;/span&gt; : &lt;span style=&quot; color:#ff0000;&quot;&gt;(If followed step 4)&lt;/span&gt; press on &lt;span style=&quot; color:#0000ff;&quot;&gt;Generate map&lt;/span&gt; button to generate a &lt;span style=&quot; color:#0000ff;&quot;&gt;flood-safe&lt;/span&gt; layer&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Step 6&lt;/span&gt; : The generated &lt;span style=&quot; color:#0000ff;&quot;&gt;flood-safe&lt;/span&gt; layer will be automatically loaded to the TOC and will be saved in the same directory where the other loaded maps are saved &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#0000ff;&quot;&gt;At a Glance&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cantarell';&quot;&gt;Follow these instructions to view details of a selected road&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cantarell';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cantarell'; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell';&quot;&gt;. Select road layer from &lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell'; color:#0000ff;&quot;&gt;Select Road layer&lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell';&quot;&gt; drop down&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cantarell';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cantarell'; font-weight:600;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell';&quot;&gt;. Select a road from &lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell'; color:#0000ff;&quot;&gt;Select a Road to view details&lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell';&quot;&gt; drop down&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cantarell';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cantarell'; font-weight:600;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell';&quot;&gt;. Click on &lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell'; color:#0000ff;&quot;&gt;OK&lt;/span&gt;&lt;span style=&quot; font-family:'Cantarell';&quot;&gt; button, to view details of selected road&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="findRoutes_tab">
+    <attribute name="title">
+     <string>Find Route</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QTextEdit" name="txtFindRouteHelp">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Follow these instructions in order to Find the best possible alternative route between two selected locations&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;. Select a &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#ff0000;&quot;&gt;Start&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; location on road layer&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;. Select &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#ff0000;&quot;&gt;Stop&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; location&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;2.1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; Select a &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#0000ff;&quot;&gt;Stop&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; location on road layer&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;2.2&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; Or select a predefined &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#0000ff;&quot;&gt;Hospital&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; / &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#0000ff;&quot;&gt;IDP camp&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;		&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;2.2.1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; Select Hospital / IDP camp layer from &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#0000ff;&quot;&gt;Select layer &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;drop down&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;		&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;2.2.2&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; Select Hospital / IDP camp name from &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#0000ff;&quot;&gt;Select Hospital&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; / &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#0000ff;&quot;&gt;Select IDP Camp&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; drop down&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;. Selected location names will be shown in each &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#0000ff;&quot;&gt;Description&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; box&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; font-weight:600;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt;. Click on &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt; color:#0000ff;&quot;&gt;Find Route&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-size:11pt;&quot;&gt; button to find the best possible (Shortest) alternative             route available&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="getDirections_tab">
+    <attribute name="title">
+     <string>Get Directions</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QTextEdit" name="txtDirectionsHelp">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Follow these instructions in order to get the directions and time to travel between two selected locations&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Founded path is shown in &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Path found&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; box&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Length of the founded path is shown in&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt; Length&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; box&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;	&lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;2.1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; Length metric can be changed in to &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;km&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; (kilometers), &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;mile&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; or &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;m&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; (meters)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Select mode of transport - &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;By Car&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; or &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Walking&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Once selected, the default speed of travel ( can change ) for each selection is selected in &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Speed of travel&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; drop down&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;(eg : average human walking speed is about 5.0 kilometres per hour (km/h), or about 3.1 miles per hour (mph))&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Miles per hour according to the &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;km / h&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; selected, is shown in &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;mph&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; box&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Number of hours and minutes required for the travel is shown in &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Average time to travel&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; boxes&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;7&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Click on &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Get directions&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; button to view the step by step directions, to reach the destination&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;8&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Click on &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Show on Map&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; button and move the mouse through the path to view the names of the roads &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Find Blocked Roads</string>
+    </attribute>
+    <widget class="QTextEdit" name="txtDirectionsHelp_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>643</width>
+       <height>290</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Follow these instructions in order to find the details of roads which have access issues&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Basic&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Make sure you have generated the &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;flood-safe&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; layer by following instructions specified in &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Getting Started&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; page&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Click on &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Blocked Roads Details&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; button to view details about the roads which have been blocked due to flood&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; color:#aa0000;&quot;&gt;Advanced&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; color:#aa0000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Make sure you have identified the &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Blocked Roads&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;, by following &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#aa0000;&quot;&gt;Basic&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; steps above&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;2&lt;/span&gt;. Load the &lt;span style=&quot; color:#0000ff;&quot;&gt;Administrative Divisions Layer&lt;/span&gt; to QGIS&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;3&lt;/span&gt;. Select the &lt;span style=&quot; color:#0000ff;&quot;&gt;Administrative Divisions Layer&lt;/span&gt; from the combo box &lt;span style=&quot; color:#0000ff;&quot;&gt;Select Administrative Divisions Layer&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Click on button &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Generate map for process&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; to generate the layer which is needed for the rest of the process&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Select the radio button - &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;All&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; OR &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Specific&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;All&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; - View details of blocked roads of all Provinces, Districts, Divisional Secretariats and Grama Niladhari Administration Divisions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Specific&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; - View details of blocked roads for a specific Province, District, Divisional Secretariat and Grama Niladhari Administration Division &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;If selected&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;, &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6.1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; radio button &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;All,&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6.1.1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; Select an Administration Division that you want the results to be sorted &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6.1.2&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; Select radio button &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;ASC&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; for sort the results in Ascending order or &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;DESC&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; for sort the results in Descending order&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6.2&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; radio button &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Specific,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6.2.1&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; Select the Province from combo box &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Select Province&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6.2.2&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; Select the District from combo box &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;District&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6.2.3&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; Select the Divisional Secretariat from combo box &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;DS&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;6.2.4&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; Select the Grama Niladhari Administration Division from combo box &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;GND&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;7&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Click on &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;View Blocked Roads Details&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; button to view the details of blocked roads for mentioned requirements &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans'; font-weight:600;&quot;&gt;8&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt;. Click on &lt;/span&gt;&lt;span style=&quot; font-family:'Sans'; color:#0000ff;&quot;&gt;Generate Report&lt;/span&gt;&lt;span style=&quot; font-family:'Sans';&quot;&gt; button to generate a pdf report which includes the generated information&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="about_tab">
+    <attribute name="title">
+     <string>About FLOOgin</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QTextEdit" name="about_text">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;FLOOgin&lt;/span&gt; is a fully automated Free and Open Source tool or a plugin for QGIS (Quantum Geographic Information System) software, which helps to response immediately when a flooding disaster strikes and aims to produce a realistic natural hazard impact scenarios for better planning, preparedness and response activities using hazard and exposure geographic data. &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;FLOOgin&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; consists with impact functions which provides information about&lt;/span&gt;, Health Risks (Epidemic diseases), Medicinal resources (Number of medical practitioners, Drugs, Vaccinations, Ambulances), Hospitals with capacities (number of beds) &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;FLOOgin&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; will identify the &lt;/span&gt;villages, resource centres (IDP camps), nearby hospitals which has limited road accessibility due to flood.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;FLOOgin&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; will identify the &lt;/span&gt;best possible&lt;span style=&quot; font-weight:600;&quot;&gt; &lt;/span&gt;alternative route available to reach affected locations identified above. &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;FLOOgin&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; will help to &lt;/span&gt;allocate flood victims to identified resource centres based on available facilities and capacities &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;FLOOgin&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; will&lt;/span&gt; generate reports and related maps to above mentioned tools. &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;FLOOgin&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; will&lt;/span&gt; allow user to share the reports generated via user's email service provider. &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/plugins/floogin/a.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCloseHelp">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>426</y>
+     <width>98</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../FLOOgin/floogin/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

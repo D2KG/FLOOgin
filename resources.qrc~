@@ -1,0 +1,126 @@
+<RCC>
+    <qresource prefix="/plugins/floogin" >
+        <file>icontemp.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>a.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>Move.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>cur.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>refresh.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>up.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>upp.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>down.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>downn.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>rfrsh.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>car.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>walk.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>walk2.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>yes.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>no.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>rfrsh4.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>rfrsh5.png</file>
+    </qresource>    
+    <qresource prefix="/plugins/floogin" >
+        <file>loading.gif</file>
+    </qresource>    
+    <qresource prefix="/plugins/floogin" >
+        <file>next.png</file>
+    </qresource> 
+    <qresource prefix="/plugins/floogin" >
+        <file>ok.png</file>
+    </qresource> 
+    <qresource prefix="/plugins/floogin" >
+        <file>rep.png</file>
+    </qresource> 
+    <qresource prefix="/plugins/floogin" >
+        <file>email.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>Gmail-icon.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>Gmail-icon1.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>outlook-icon.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>outlook-icon1.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>Yahoo-icon.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>Yahoo-icon1.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>email-send-icon.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>email-send-icon1.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>Help.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>search.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>stop.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>show.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>hide.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>txt.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>mp3.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>Wait.gif</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>bar.gif</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>camera.png</file>
+    </qresource>
+    <qresource prefix="/plugins/floogin" >
+        <file>PDF.png</file>
+    </qresource>
+</RCC>
+
